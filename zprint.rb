@@ -3,9 +3,9 @@ class Zprint < Formula
   homepage "https://github.com/kkinnear/zprint"
   @alias_version = "0.5.4"
   @alias_name = "zprintm-#{@alias_version}"
-  url "https://github.com/kkinnear/zprint/releases/download/#{@alias_version}/zprintm-0.5.4"
+  url "https://github.com/kkinnear/zprint/releases/download/#{@alias_version}/#{@alias_name}"
   sha256 "281fb1749bbb1eb2102d5c8bb0db013fbbea0d5b3eb2889f6cd4da06d1e588a5"
-  version '0.0.18'
+  version '0.0.19'
   
   def install
     bin.install "#{@alias_name}"
