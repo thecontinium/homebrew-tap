@@ -5,7 +5,7 @@ class Zprint < Formula
   version '0.0.2'
 
   def install
-    bin.inatall 'zprint-filter*'
+    bin.install 'zprint-filter*'
     mv bin/"zprint-filter*", bin/"zprint"
   end
 
