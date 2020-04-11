@@ -2,7 +2,7 @@ class Zprint < Formula
   desc "Library to reformat Clojure and Clojurescript source code and s-expressions"
   homepage "https://github.com/kkinnear/zprint"
   url "https://github.com/kkinnear/zprint/releases/download/0.5.4/zprintm-0.5.4"
-  sha256 "625857e8711b72ab71e875bb48b00650c0e31f223860d15b089074e3497925f8"
+  sha256 "281fb1749bbb1eb2102d5c8bb0db013fbbea0d5b3eb2889f6cd4da06d1e588a5"
   version '0.0.8'
   
   def install
