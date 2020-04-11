@@ -4,8 +4,10 @@ class Zprint < Formula
   url "https://github.com/kkinnear/zprint/releases/download/0.5.4/zprint-filter-0.5.4"
   version '0.0.3'
 
+  skip_clean 'bin'
+  
   def install
-    bin.install 'zprint-filter*'
+    bin.install 'zprint-filter-0.5.4'
     mv bin/"zprint-filter*", bin/"zprint"
   end
 
