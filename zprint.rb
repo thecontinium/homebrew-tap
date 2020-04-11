@@ -3,7 +3,7 @@ class Zprint < Formula
   homepage "https://github.com/kkinnear/zprint"
   url "https://github.com/kkinnear/zprint/releases/download/0.5.4/zprintm-0.5.4"
   sha256 "281fb1749bbb1eb2102d5c8bb0db013fbbea0d5b3eb2889f6cd4da06d1e588a5"
-  version '0.0.8'
+  version '0.0.9'
   
   def install
     bin.install 'zprintm-0.5.4'
