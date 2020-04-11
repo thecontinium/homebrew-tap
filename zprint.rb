@@ -5,7 +5,7 @@ class Zprint < Formula
   @@alias_version = "0.5.4" # just change this alias version
   @@alias_name = "zprintm-#{@@alias_version}"
   url "https://github.com/kkinnear/zprint/releases/download/#{@@alias_version}/#{@@alias_name}"
-  version '0.0.22'
+  version '0.1.00'
   
   def install
     bin.install "#{@@alias_name}"
