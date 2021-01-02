@@ -1,4 +1,4 @@
-cask "alacritty" do
+cask "alacritty-rc" do
   version "0.7.0-rc1"
 
   url "https://github.com/alacritty/alacritty/releases/download/v#{version}/Alacritty-v#{version}.dmg"
