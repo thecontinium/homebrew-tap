@@ -1,7 +1,7 @@
 cask "alacritty-rc" do
-  version "0.7.0"
+  version "0.7.1"
 
-  url "https://github.com/alacritty/alacritty/releases/download/v#{version}-rc1/Alacritty-v#{version}-rc1.dmg"
+  url "https://github.com/alacritty/alacritty/releases/download/0.7.0-rc1/Alacritty-v0.7.0-rc1.dmg"
   appcast "https://github.com/alacritty/alacritty/releases.atom"
   name "Alacritty"
   desc "Cross-platform, GPU-accelerated terminal emulator"
