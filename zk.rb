@@ -9,6 +9,8 @@ class Zk < Formula
   license "GPL-3.0"
 
   depends_on "go"
-  bin.install "zk"
 
+  def install
+    bin.install "zk"
+  end
 end
