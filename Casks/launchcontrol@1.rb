@@ -1,5 +1,5 @@
 cask "launchcontrol@1" do
-  version "1.52.7,1959"
+  version "1.52.7"
   sha256 "760edc3f3238ecbbc9f0c14b17ced9ac2a46c46a4ed8feec6bfb532fced37b7e"
   
   url "https://www.soma-zone.com/download/files/LaunchControl-#{version.csv.first}.tar.xz"
