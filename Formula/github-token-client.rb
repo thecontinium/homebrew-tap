@@ -20,9 +20,9 @@ class GithubTokenClient < Formula
       ========================================================================
       
       1. ROUTE THE 'gh' CLI THROUGH THE PROXY
-         Append this alias to your local shell files (~/.zshrc or ~/.bashrc):
+         Run this command to append the alias to your Zsh configuration and apply it:
 
-         alias gh="gh-proxy"
+         echo 'alias gh="gh-proxy"' >> ~/.zshrc && source ~/.zshrc
 
       2. ROUTE NATIVE 'git' COMMANDS THROUGH THE PROXY
          Run the following command in your terminal to bind native git operations 
