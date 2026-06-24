@@ -31,4 +31,38 @@ class GithubTokenServer < Formula
     keep_alive true
     run_at_load true
   end
+
+  def caveats
+    <<~EOS
+      ========================================================================
+      🔑 SECURE KEYCHAIN CONFIGURATION REQUIRED
+      ========================================================================
+      
+      Before starting the background service, you must securely inject your
+      GitHub App secrets into the native macOS Keychain. Run these 3 commands:
+
+      1. Store your App ID:
+         security add-generic-password -a "github-app" -s "pi-app-id" -w "YOUR_APP_ID"
+
+      2. Store your App Installation ID:
+         security add-generic-password -a "github-app" -s "pi-app-installation-id" -w "YOUR_INSTALLATION_ID"
+
+      3. Stream your raw PEM private key block into the secure vault:
+         security add-generic-password -a "github-app" -s "pi-app-private-key-raw" -w - < /path/to/your-key.pem
+
+      * IMPORTANT: Once securely saved to the Keychain, remember to delete the 
+        physical .pem file from disk (`rm /path/to/your-key.pem`).
+
+      ========================================================================
+      🚀 STARTING THE BACKGROUND SERVICE
+      ========================================================================
+      
+      Once your keys are securely added to the Keychain, spin up the background
+      service wrapper natively via Homebrew services:
+
+         brew services start github-token-server
+
+      ========================================================================
+    EOS
+  end
 end
