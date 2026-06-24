@@ -2,7 +2,7 @@ class GithubTokenServer < Formula
   desc "LiteLLM-style secure credential server for local automation"
   homepage "https://github.com/thecontinium/homebrew-tap"
   url "https://github.com/thecontinium/github-token-server/archive/refs/tags/v1.0.0.tar.gz"
-  version "1.0.1"
+  version "1.0.2"
   # Automated target checks
   sha256 "a11c88a652b07f64de8b9cce5947f9cfcb8e6a38e39ac9dc1b70732c6ce5b698"
   license "MIT"
