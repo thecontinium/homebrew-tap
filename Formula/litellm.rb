@@ -1,10 +1,10 @@
 class Litellm < Formula
   desc "Isolated LiteLLM server powered by uv with Keychain credentials loading"
-  homepage "https://github.com/YOUR_GITHUB_USERNAME/homebrew-tap"
+  homepage "https://github.com/thecontinium/homebrew-tap"
   
   # Stable dummy target to satisfy Homebrew's required framework checkpoints
   url "https://raw.githubusercontent.com/astral-sh/uv/main/LICENSE-MIT"
-  sha256 "5f3a09375ff9fa9f059f33e7f5bc6f8099351a0dc08da95ffbc50cb55dfa5d3f"
+  sha256 "860e3d7a86b84e6a7012c7a635fc64df475cebc6cce34dfeb73a5982ec58176c"
   version "latest"
 
   depends_on "uv"
