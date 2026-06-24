@@ -1,7 +1,7 @@
 class GithubTokenClient < Formula
   desc "Stateless execution interceptor script for GitHub CLI tools"
-  homepage "https://github.com/YOUR_GITHUB_USERNAME/homebrew-tap"
-  url "https://github.com/YOUR_GITHUB_USERNAME/github-token-client/archive/refs/tags/v1.0.0.tar.gz"
+  homepage "https://github.com/thecontinium/homebrew-tap"
+  url "https://github.com/thecontinium/github-token-client/archive/refs/tags/v1.0.0.tar.gz"
   version "1.0.0"
   sha256 "4df27bead25edaec306d3b70355b7619fca31339bc39e97e1c3933ceae696cc8"
   license "MIT"
