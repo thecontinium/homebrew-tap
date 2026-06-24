@@ -3,7 +3,7 @@ class GithubTokenClient < Formula
   homepage "https://github.com/thecontinium/homebrew-tap"
   url "https://github.com/thecontinium/github-token-client/archive/refs/tags/v1.0.0.tar.gz"
   version "1.0.0"
-  sha256 "4df27bead25edaec306d3b70355b7619fca31339bc39e97e1c3933ceae696cc8"
+  sha256 "f6fe2680aa6efe9d31e2b758883c0077922e5907e9c67749c71d912e630ec16f"
   license "MIT"
 
   depends_on "gh"
