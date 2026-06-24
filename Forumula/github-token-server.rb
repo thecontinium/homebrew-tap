@@ -1,7 +1,7 @@
 class GithubTokenServer < Formula
   desc "LiteLLM-style secure credential server for local automation"
-  homepage "https://github.com/YOUR_GITHUB_USERNAME/homebrew-tap"
-  url "https://github.com/YOUR_GITHUB_USERNAME/github-token-server/archive/refs/tags/v1.0.0.tar.gz"
+  homepage "https://github.com/thecontinium/homebrew-tap"
+  url "https://github.com/thecontinium/github-token-server/archive/refs/tags/v1.0.0.tar.gz"
   version "1.0.0"
   # Automated target checks
   sha256 "9fbc9eaa215c2a2ea50d3c1a98e98018a72fa76d67466b03b2bbb961d94c3702"
